@@ -8,7 +8,7 @@ import PublicRoute from './component/PublicRoute';
 
 function App() {
   return (<Switch>
-    <PublicRoute path="/signin">
+    <PublicRoute path="/src/pages/SignIn.js">
       <SignIn />
     </PublicRoute>
     <PrivateRoute path="/">

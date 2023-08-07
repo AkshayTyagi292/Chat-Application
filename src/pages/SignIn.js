@@ -1,10 +1,21 @@
 import React from "react";
+import { Container, Grid, Row, Panel, Col } from "rsuite";
+
 const SignIn = () => {
-    return (
-    <div>
-    sign in
-    </div>
-    )
+    return <Container>
+        <Grid>
+            <Row>
+                <Col xs={24} md={12}>
+                    <Panel>
+                        <div className="text-center">
+                            <h2>Welcome to Chat</h2>
+                            <p>Progressive Chat Platform for Neophytes.</p>
+                        </div>
+                    </Panel>
+                </Col>
+            </Row>
+        </Grid>
+    </Container>
 };
 
 export default SignIn;
